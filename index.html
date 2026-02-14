@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAZAREV. — Digital Product Design Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">LAZAREV.</a>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__links">
+                    <a href="#services" class="nav__link">What we do</a>
+                    <a href="#insights" class="nav__link">Outcomes</a>
+                    <a href="#cases" class="nav__link">Cases</a>
+                    <a href="#" class="nav__link">News</a>
+                </div>
+            </div>
+            <div class="nav__actions">
+                <button class="btn btn--primary">Let's Talk <i class="ri-arrow-right-up-line"></i></button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Menu">
+                    <i class="ri-menu-4-line"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main data-scroll-container>
+        <section class="hero" data-scroll-section style="min-height: 80vh; justify-content: center;">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Digital product design <br>
+                    agency for AI-native B2B <br>
+                    products & user experience
+                </h1>
+                <p class="hero__desc">
+                    We redesign complex AI and data platforms into clear, high-performing digital experiences so users understand your product faster, trust it more, and keep coming back. Based in San Francisco, California.
+                </p>
+            </div>
+        </section>
+
+        <div class="hero-video-wrapper" data-scroll-section>
+            <div class="hero-video">
+                 <video src="video.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </div>
+
+        <section class="insights section-padding" id="insights">
+            <div class="insights__grid fade-in">
+                <article class="stats-card">
+                    <div class="stats-card__header">/ 01</div>
+                    <div class="stats-card__body">
+                        <h3>$500M+</h3>
+                        <p>in funding secured for our clients</p>
+                    </div>
+                </article>
+
+                <article class="stats-card">
+                    <div class="stats-card__header">/ 02</div>
+                    <div class="stats-card__body">
+                        <h3>120+</h3>
+                        <p>awards backing our excellence</p>
+                    </div>
+                </article>
+
+                <article class="stats-card">
+                    <div class="stats-card__header">/ 03</div>
+                    <div class="stats-card__body">
+                        <h3>2015</h3>
+                        <p>founded, 10+ years of experience</p>
+                    </div>
+                </article>
+
+                <article class="stats-card">
+                    <div class="stats-card__header">/ 04</div>
+                    <div class="stats-card__body">
+                        <h3>San Francisco, CA</h3>
+                        <p>AI product design agency based in the USA</p>
+                    </div>
+                </article>
+
+                <article class="stats-card">
+                    <div class="stats-card__header">/ 05</div>
+                    <div class="stats-card__body">
+                        <h3>full-cycle product design</h3>
+                        <p>from user research to production-ready design systems</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cases section-padding" id="cases">
+            <div class="cases__item fade-in">
+                <div class="cases__info">
+                    <h2>Accern Rhea</h2>
+                    <p>Revolutionizing financial data analysis with an intuitive dashboard interface.</p>
+                    <div class="cases__meta">
+                        <span>Fintech</span>
+                        <span>Data Viz</span>
+                    </div>
+                </div>
+                <div class="cases__media">
+                    <video muted loop playsinline src="https://lazarev.kiev.ua/cases/la24/accern-rhea-cover-big.mp4" poster="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65a93ac90b586168e5917ac8_Rhea%20-%20cover_horizontal_low.webp"></video>
+                </div>
+            </div>
+
+            <div class="cases__item fade-in">
+                <div class="cases__info">
+                    <h2>AfroTech</h2>
+                    <p>Connecting the black tech community through a vibrant, engaging digital platform.</p>
+                    <div class="cases__meta">
+                        <span>Community</span>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+                <div class="cases__media">
+                    <video muted loop playsinline src="https://lazarev.kiev.ua/cases/la24/afrotech-cover-big.mp4" poster="https://assets-global.website-files.com/64a5e6675a4159253d0ee3e0/65cb66041ce86ac3784aaba1_Afrotech%20-%20cover_horizontal.webp"></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section-padding" id="services">
+            <div class="services__header">
+                <h2>Our Services</h2>
+                <button class="btn btn--primary">Become a Client</button>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion__item fade-in">
+                    <button class="accordion__trigger">
+                        <span class="accordion__title">UI/UX Design</span>
+                        <i class="ri-add-line accordion__icon"></i>
+                    </button>
+                    <div class="accordion__content">
+                        <div class="accordion__inner">
+                            <p>We craft intuitive interfaces that users love. From wireframing to high-fidelity prototypes.</p>
+                            <ul>
+                                <li>UX Research & Audit</li>
+                                <li>Design Systems</li>
+                                <li>Mobile App Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item fade-in">
+                    <button class="accordion__trigger">
+                        <span class="accordion__title">Product Strategy</span>
+                        <i class="ri-add-line accordion__icon"></i>
+                    </button>
+                    <div class="accordion__content">
+                        <div class="accordion__inner">
+                            <p>We help you define your MVP, validate ideas, and plan a roadmap for success.</p>
+                            <ul>
+                                <li>Market Analysis</li>
+                                <li>Idea Validation</li>
+                                <li>Functional Decomposition</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <h1>Let's build something <br> great together.</h1>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Agency Name. All rights reserved.</p>
+            <div class="footer__links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
